@@ -23,3 +23,9 @@ NEW_LINE PROC
 	POP AX
 	RET
 NEW_LINE ENDP
+
+TO_LOWERCASE PROC
+	OR AL, 0x20; Apply mask to convert to lowercase
+	RET
+TO_LOWERCASE ENDP
+	
