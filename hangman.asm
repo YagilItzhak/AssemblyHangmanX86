@@ -73,7 +73,7 @@ start:
         CMP Hearts, 0
         JE exit 
         
-        ; TODO: Print the current state of the hang man by the ::Hearts
+        ; Print the current state of the hang man by the ::Hearts
         MOV BH, '0'
         ADD BH, Hearts
         MOV Worng_msg[27], BH  
